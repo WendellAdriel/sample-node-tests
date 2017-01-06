@@ -1,0 +1,22 @@
+{
+  "name": "sample-node-tests",
+  "version": "1.0.0",
+  "description": "Sample codes on how to write tests in Node to use as example in a Node Training",
+  "main": "app.js",
+  "repository": "https://github.com/WendellAdriel/sample-node-tests",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
+    "supertest": "^2.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec 'npm test'",
+    "test": "mocha **/*.spec.js"
+  }
+}
